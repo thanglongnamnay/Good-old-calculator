@@ -1,0 +1,37 @@
+.bottom {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+		"percent m mc mplus divide" 
+		"swap n7 n8 n9 multiply" 
+		"sqrt n4 n5 n6 minus" 
+		"c n1 n2 n3 plus" 
+		"ac n0 dot equal plus";
+}
+.percent { grid-area: percent; }
+.m { grid-area: m; }
+.mc { grid-area: mc; }
+.c { grid-area: c; }
+.ac { grid-area: ac; }
+.divide { grid-area: divide; }
+.multiply { grid-area: multiply; }
+.minus { grid-area: minus; }
+.plus { grid-area: plus; }
+.plus { grid-area: plus; }
+.dot { grid-area: dot; }
+.equal { grid-area: equal; }
+.sqrt { grid-area: sqrt; }
+.swap { grid-area: swap; }
+.mplus { grid-area: mplus; }
+.n7 { grid-area: n7; }
+.n0 { grid-area: n0; }
+.n1 { grid-area: n1; }
+.n2 { grid-area: n2; }
+.n3 { grid-area: n3; }
+.n4 { grid-area: n4; }
+.n5 { grid-area: n5; }
+.n6 { grid-area: n6; }
+.n8 { grid-area: n8; }
+.n9 { grid-area: n9; }

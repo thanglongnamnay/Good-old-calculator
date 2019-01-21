@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Digital-7 Mono';
+    src: url('Digital-7Mono.woff2') format('woff2'),
+        url('Digital-7Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

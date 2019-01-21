@@ -1,0 +1,39 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "module"
+  },
+  "compilerOptions": {
+    "target": "esnext",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "rules": {
+    "indent": [
+      1,
+      "tab"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "valid-typeof": 1,
+    "no-unused-vars": [1, {"vars": "all", "args": "all"}],
+    "no-cond-assign": 1,
+    "no-constant-condition": 1,
+    "no-console": 0
+  }
+}
