@@ -14,6 +14,7 @@
 			* {
 				user-select: none;
 			}
+
 			body {
 				font-family: sans-serif;
 				font-size: 18px;
@@ -38,19 +39,24 @@
 				background: #bfcb9f;
 				position: relative;
 				border: 1px solid black;
-				height: 35px;
+				height: 38px;
 				width: 230px;
 				top: 30px;
 				left: 10px;
 				border-radius: 5px;
 				box-shadow: inset .5px .5px 2px black;
 			}
-			.content {
-				font-family: 'Digital-7 Mono';;
-				font-size: 2em;
+			.content, .dots {
+				position: absolute;
+				width: 100%;
+				font-family: 'Digital-7 Mono';
+				font-size: 2.25em;
 				text-align: right;
 				padding-right: 10px;
-				letter-spacing: 1.5px;
+				letter-spacing: 6px;
+			}
+			.dots {
+				right: 4px;
 			}
 			.ui {
 				position: absolute;
@@ -71,7 +77,6 @@
 			    align-content: center;
 			    flex-direction: column;
 			    background: radial-gradient(#505050, #000000);
-				/*border: 1px solid black;*/
 				border-radius: 10px;
 				box-shadow: 2px 2px 1px rgba(0,0,0,.75)
 			}
@@ -87,6 +92,7 @@
 			<div class="top">
 				<div class="screen">
 					<div class="content">123456789101</div>
+					<div class="dots"></div>
 					<div class="ui">0</div>
 				</div>
 			</div>
@@ -120,11 +126,3 @@
 		<script src="main.js"></script>
 	</body>
 </html>
-
-<!-- 
-OFF	M	MC	M+ 	:
-+/-	7	8	9	x
-v-	4	5	6	-
-C	1	2	3	+
-AC	0	. 	= 	+ 
--->

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78953b5b-7336-45cb-bef3-e141d6a3bf83" name="Default Changelist" comment="" />
+    <list default="true" id="78953b5b-7336-45cb-bef3-e141d6a3bf83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="88" column="39" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="39" />
+            <state relative-caret-position="180">
+              <caret line="89" column="10" lean-forward="true" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -28,26 +34,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+            <state relative-caret-position="1974">
+              <caret line="207" column="18" lean-forward="true" selection-start-line="207" selection-start-column="18" selection-end-line="207" selection-end-column="18" />
               <folding>
-                <element signature="e#307#388#0" />
-                <element signature="e#460#501#0" />
-                <element signature="e#545#612#0" />
-                <element signature="e#645#906#0" />
-                <element signature="e#937#1107#0" />
-                <element signature="n#!!block;n#Interface#0" />
-                <element signature="n#!!block;n#Calculator#0" />
-                <element signature="n#!!block;n#render#0;n#!!block;n#Calculator#0" />
-                <element signature="n#!!block;n#f#0;n#!!block;n#Calculator#0" />
-                <element signature="n#!!block;n#function#0;n#!!block;n#Calculator#0" />
-                <element signature="n#!!block;n#setUgly#0;n#!!block;n#Calculator#0" />
-                <element signature="n#!!block;n#concat#0;n#!!block;n#Calculator#0" />
-                <element signature="n#!!block;n#function#0;n#!!block;n#Calculator#0" />
-                <element signature="n#!!block;n#f#0;n#!!block;n#Calculator#0" />
-                <element signature="n#!!block;n#f#0;n#!!block;n#Calculator#0" />
-                <element signature="n#!!block;n#f#0;n#!!block;n#Calculator#0" />
-                <element signature="e#2583#2588#0" />
+                <element signature="n#!!block;n#BinaryFunction#0" />
+                <element signature="n#!!block;n#UnaryFunction#0" />
               </folding>
             </state>
           </provider>
@@ -56,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+            <state relative-caret-position="4416">
+              <caret line="279" column="1" selection-start-line="279" selection-start-column="1" selection-end-line="279" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -71,6 +62,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -81,12 +75,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="25" />
     <option name="width" value="1345" />
     <option name="height" value="670" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -149,17 +144,20 @@
       <updated>1547910849492</updated>
       <workItem from="1547910853902" duration="2893000" />
       <workItem from="1547947602614" duration="9182000" />
+      <workItem from="1548416490005" duration="2608000" />
+      <workItem from="1548462933344" duration="598000" />
+      <workItem from="1549527084942" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12075000" />
+    <option name="totallyTimeSpent" value="15346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1107" height="589" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49868074" visible="true" weight="0.23738317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868074" visible="true" weight="0.23738317" />
       <window_info id="Structure" order="1" sideWeight="0.5013193" side_tool="true" weight="0.23738317" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -186,6 +184,8 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/main.js.map" />
+        <option value="$PROJECT_DIR$/foo.js.map" />
+        <option value="$PROJECT_DIR$/foo.js" />
       </list>
     </option>
   </component>
@@ -206,8 +206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="88" column="39" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="39" />
+        <state relative-caret-position="180">
+          <caret line="89" column="10" lean-forward="true" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
           <folding>
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -216,33 +216,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+        <state relative-caret-position="4416">
+          <caret line="279" column="1" selection-start-line="279" selection-start-column="1" selection-end-line="279" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+        <state relative-caret-position="1974">
+          <caret line="207" column="18" lean-forward="true" selection-start-line="207" selection-start-column="18" selection-end-line="207" selection-end-column="18" />
           <folding>
-            <element signature="e#307#388#0" />
-            <element signature="e#460#501#0" />
-            <element signature="e#545#612#0" />
-            <element signature="e#645#906#0" />
-            <element signature="e#937#1107#0" />
-            <element signature="n#!!block;n#Interface#0" />
-            <element signature="n#!!block;n#Calculator#0" />
-            <element signature="n#!!block;n#render#0;n#!!block;n#Calculator#0" />
-            <element signature="n#!!block;n#f#0;n#!!block;n#Calculator#0" />
-            <element signature="n#!!block;n#function#0;n#!!block;n#Calculator#0" />
-            <element signature="n#!!block;n#setUgly#0;n#!!block;n#Calculator#0" />
-            <element signature="n#!!block;n#concat#0;n#!!block;n#Calculator#0" />
-            <element signature="n#!!block;n#function#0;n#!!block;n#Calculator#0" />
-            <element signature="n#!!block;n#f#0;n#!!block;n#Calculator#0" />
-            <element signature="n#!!block;n#f#0;n#!!block;n#Calculator#0" />
-            <element signature="n#!!block;n#f#0;n#!!block;n#Calculator#0" />
-            <element signature="e#2583#2588#0" />
+            <element signature="n#!!block;n#BinaryFunction#0" />
+            <element signature="n#!!block;n#UnaryFunction#0" />
           </folding>
         </state>
       </provider>
